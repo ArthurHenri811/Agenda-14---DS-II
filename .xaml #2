@@ -1,0 +1,28 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+
+             x:Class="HotelApp.MainPage"
+
+             Title="Hotéis Disponíveis">
+
+    <ScrollView>
+
+        <VerticalStackLayout Padding="20" Spacing="10">
+
+            <Label Text="Hotéis em destaque" FontSize="24" FontFamily="Arial" HorizontalOptions="Center" />
+
+            
+
+            <Button Text="Hotel Sol Nascente" Clicked="OnHotelClicked" />
+
+            <Button Text="Hotel Praia Azul" Clicked="OnHotelClicked" />
+
+            <Button Text="Hotel Montanha Verde" Clicked="OnHotelClicked" />
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
+
