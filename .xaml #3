@@ -1,0 +1,19 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+
+             x:Class="HotelApp.HotelDetailsPage"
+
+             Title="Detalhes do Hotel">
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+
+        <Label Text="Hotel Sol Nascente" FontSize="24" FontFamily="Arial" />
+
+        <Label Text="Localizado no centro da cidade, oferece café da manhã incluso e Wi-Fi gratuito." FontSize="16" FontFamily="Arial" />
+
+        <Button Text="Reservar agora" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
